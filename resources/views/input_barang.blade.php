@@ -84,12 +84,6 @@
         -webkit-appearance: none;
       }
 
-      #price {
-        padding-right: 110px;
-        width: 1870px;
-        text-align: center;
-      }
-
       #type_barang {
         padding-right: 10px;
       }

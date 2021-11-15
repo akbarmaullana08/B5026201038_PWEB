@@ -33,3 +33,15 @@ Route::post('pengakaran','ViewController@pengakaranfunc');
 
 Route::get('form_ets','ViewController@etspweb');
 
+//route CRUD
+Route::get('/pegawai','PegawaiController@index');
+
+Route::post('/pegawai/store','PegawaiController@store');
+
+Route::get('/pegawai/tambah','PegawaiController@tambah');
+
+Route::get('/pegawai/edit/{id}','PegawaiController@edit');
+
+Route::post('/pegawai/update','PegawaiController@update');
+
+Route::get('/pegawai/hapus/{id}','PegawaiController@hapus');
