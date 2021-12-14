@@ -13,7 +13,10 @@ class TugasController extends Controller
     public function index()
     {
         // mengambil data dari table tugaspegawai
-        $tugas = DB::table('tugas')->get();
+        $tugas = DB::table('tugas')
+       ->join('pegawai', 'tugas.IDPegawai', '=', 'pegawai.pegawai_id')
+       ->select('tugas.*', 'pegawai.pegawai_nama')
+       ->paginate() ;
 
         // mengirim data pegawai ke view index
         return view('tugas.index', ['tugas' => $tugas]);

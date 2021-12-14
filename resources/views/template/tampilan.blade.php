@@ -123,6 +123,23 @@
                 color: rgb(255, 255, 255);
             }
 
+            #tampilandetail {
+                padding: 40px;
+                width: 1300px;
+                text-align: justify;
+                padding-bottom: 10px;
+                padding-left: 4%;
+                background-color: #ffffff;
+                font-family: Verdana, Arial, Helvetica, sans-serif;
+                font-size: 14px;
+                box-shadow: 0 12px 16px 0 rgba(231, 60, 60, 0.24), 0 17px 50px 0 rgba(17, 148, 255, 0.678);
+            }
+
+            .container {
+                padding-bottom: 10px;
+            }
+
+
         </style>
 
     </head>
