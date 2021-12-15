@@ -64,3 +64,6 @@ Route::get('/absen/edit/{id}','AbsenController@edit');
 Route::post('/absen/update','AbsenController@update');
 Route::get('/absen/hapus/{id}','AbsenController@hapus');
 
+//uas
+Route::get('/pagecounter','PageCounterController@index');
+
