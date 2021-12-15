@@ -156,7 +156,7 @@
         <a href="/pegawai">Pegawai</a>
         <a href="/tugas">Tugas Pegawai</a>
         <a href="http://127.0.0.1:8000/">PR</a>
-        <a href="#"></a>
+        <a href="/pagecounter">EAS</a>
         <a href="#"></a>
     </div>
 
